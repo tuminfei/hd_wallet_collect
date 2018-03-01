@@ -1,0 +1,23 @@
+scheduler_name: 'auto_collect'
+infura_token: ''
+infura_chain: 'main'
+scheduler_params:
+  when_ever: '5s'
+wallet_params:
+  wallet_xprv: ''
+collect_params:
+  eth_currency_id: 4
+  hold_eth_amount: 0.01
+  min_eth_amout: 0.004
+  fill_gas_limit: 40000
+  fill_gas_price: 3000000000
+  fill_eth_from_private_key: ''
+collect_erc20:
+  - currency_id: 5
+    currency_code: 'atm'
+    collect_amount: 100
+    token_address: '0x9B11EFcAAA1890f6eE52C6bB7CF8153aC5d74139'
+    token_decimals: 8
+    collect_address: ''
+    gas_limit: 60000
+    gas_price: 3000000000
